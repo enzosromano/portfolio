@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
 import Blog from "./pages/Blog";
 import Links from "./pages/Links";
 import Projects from "./pages/Projects";
