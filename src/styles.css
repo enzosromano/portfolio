@@ -1,9 +1,17 @@
 * {
     box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.font-link {
+    font-family: 'Hanalei Fill', cursive;
 }
 
 body {
     margin: 0;
+    background-color: #333;
 }
 
 .container {
@@ -12,11 +20,12 @@ body {
 }
 
 .nav {
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: #333;
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
     gap: 2rem;
     padding: 0 1rem;
 }
@@ -26,6 +35,9 @@ body {
     margin: 0;
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
     gap: 1rem;
 }
 
@@ -35,6 +47,7 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: .25rem;
 }
 
