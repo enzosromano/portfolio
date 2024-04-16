@@ -5,6 +5,7 @@ export default function Navbar() {
         <nav className="nav">
             <Link to="/" className="site-title" >HOME</Link>
             <ul>
+                <ActivePage to="/blog">BLOG</ActivePage>
                 <ActivePage to="/links">LINKS</ActivePage>
                 <ActivePage to="/projects">PROJECTS</ActivePage>
             </ul>
