@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Blog from "./pages/Blog";
 import Links from "./pages/Links";
 import Projects from "./pages/Projects";
@@ -17,6 +18,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
+
+      <Footer />
     </>
   )
 }

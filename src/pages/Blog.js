@@ -18,6 +18,16 @@ export default function Blog() {
                     <li>Make Mobile Friendly.</li>
                     <li>Everything else.</li>
             </ul>
+
+            <p>Todo</p>
+                <ul>
+                    <li>Decide on color pallete.</li>
+                    <li>Make blog components.</li>
+                    <li>Decide on hosting software.</li>
+                    <li>Set up DB.</li>
+                    <li>Make Mobile Friendly.</li>
+                    <li>Everything else.</li>
+            </ul>
             
         </div>
     )

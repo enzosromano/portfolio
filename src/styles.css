@@ -70,6 +70,21 @@ ul {
 
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    position:fixed;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+
+/* Fix these classnames! These are just for testing currently!!! */
 .test1 {
     display: flex;
     flex-direction: column;
