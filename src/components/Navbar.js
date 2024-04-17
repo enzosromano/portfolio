@@ -3,7 +3,12 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom"
 export default function Navbar() {
     return (
         <nav className="nav">
-            <Link to="/" className="site-title" >HOME</Link>
+            <Link to="/" className="site-title">
+                <picture>
+                    <source media="(max-width: 1200px)" srcset="logosmalltransparent.png" />
+                    <img src="logofulltransparent.png" alt="cclogo" />
+                </picture>
+            </Link>
             <ul>
                 <ActivePage to="/blog">BLOG</ActivePage>
                 <ActivePage to="/links">LINKS</ActivePage>
