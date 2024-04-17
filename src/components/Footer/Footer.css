@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    color: black;
+
+    position:fixed;
+    left:0;
+    bottom:0;
+    right:0;
+}
