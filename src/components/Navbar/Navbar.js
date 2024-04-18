@@ -6,7 +6,7 @@ export default function Navbar() {
         <nav className="nav">
             <Link to="/" className="site-title">
                 <picture>
-                    <source media="(max-width: 1200px)" srcset="logosmalltransparent.png" />
+                    <source media="(max-width: 1200px)" srcSet="logosmalltransparent.png" />
                     <img src="logofulltransparent.png" alt="cclogo" />
                 </picture>
             </Link>
