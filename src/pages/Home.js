@@ -34,6 +34,7 @@ export default function Home() {
                         <img src="emailicon.png" alt="linkedin"/>
                     </a>
                 </div>
+                <p>Dont worry, they'll open in a new tab.</p>
             </div>
             
 

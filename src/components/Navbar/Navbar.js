@@ -13,7 +13,7 @@ export default function Navbar() {
             </Link>
             <ul>
                 <ActivePage to="/blog">BLOG</ActivePage>
-                <ActivePage to="/links">LINKS</ActivePage>
+                <ActivePage to="/about">ABOUT</ActivePage>
                 <ActivePage to="/projects">PROJECTS</ActivePage>
             </ul>
         </nav>
