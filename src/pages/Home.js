@@ -8,13 +8,20 @@ export default function Home() {
                 <h1>Hi, i'm Enzo.</h1>
                 <h2>I love to build things.</h2>
 
-                <a href="EnzoRomanoResume.pdf" alt="resume download link" download>
-                    <DirectionalButton role="button">Download Resume</DirectionalButton>
-                </a>
+                <div className="buttonStack">
+                    <a href="EnzoRomanoResume.pdf" alt="resume download link" download>
+                        <DirectionalButton role="button">Download Resume</DirectionalButton>
+                    </a>
+
+                    <DirectionalButton role="button">Contact Me</DirectionalButton>
+                </div>
+
+                
             </div>
 
             <div className="aboutright">
-                <h2>Test</h2>
+                <img src="favicon.ico" alt="placeholder"/>
+                <p>placeholder image</p>
             </div>
             
 
