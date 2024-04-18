@@ -4,11 +4,6 @@ This file is dedicated to everything not in a component
 Such as all of the pages
 */
 
-:root {
-    --darkblue: #0062ff;
-    --charcoal: #2C4251;
-}
-
 * {
     box-sizing: border-box;
     font-family: "Roboto Mono", monospace;
@@ -27,14 +22,6 @@ body {
     height: 100vh;
     width: 100vw;
 
-    color: aliceblue;
-}
-
-.about {
-    text-wrap: wrap;
-}
-
-.about a{
     color: white;
 }
 
@@ -59,7 +46,7 @@ body {
 .aboutleft {
     text-align: left;
     float: left;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .buttonStack {
@@ -70,16 +57,29 @@ body {
 }
 
 .aboutright {
-    background-image: linear-gradient(
-        to right top, #000000, #1f1f1f, #383838, #535353, #6f6f6f);
     float: right;
-    margin: 0;
     width: 50%;
+
+    display: flex;
+    flex-direction: column;
 }
 
-.aboutright img {
-    height: 35vh;
-    width: 20vw;
+.headshot img{
+    border-radius: 25px;
+    height: 200px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 50px;
+}
+
+.icons img {
+    height: 120px;
+    width: 120px;
 }
 
 /* BLOG PAGE -  Fix these classnames! These are just for testing currently!!! */

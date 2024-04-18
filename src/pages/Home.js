@@ -20,8 +20,20 @@ export default function Home() {
             </div>
 
             <div className="aboutright">
-                <img src="favicon.ico" alt="placeholder"/>
-                <p>placeholder image</p>
+                <div className="headshot">
+                    <img src="headshot.jpg" alt="headshot"/>
+                </div>
+                <div className="icons">
+                    <a href="https://github.com/enzosromano" target="_blank" rel="noreferrer">
+                        <img src="githubicon.png" alt="github"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/enzo-romano-878b051b3/" target="_blank" rel="noreferrer">
+                        <img src="linkedinicon.png" alt="linkedin"/>
+                    </a>
+                    <a href="https://google.com" target="_blank" rel="noreferrer">
+                        <img src="emailicon.png" alt="linkedin"/>
+                    </a>
+                </div>
             </div>
             
 
