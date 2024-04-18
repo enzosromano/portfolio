@@ -9,6 +9,7 @@ Such as all of the pages
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
+    
 }
 
 .font-link {
@@ -23,6 +24,7 @@ body {
     width: 100vw;
 
     color: white;
+    overflow-x: hidden;
 }
 
 .container {
@@ -32,21 +34,22 @@ body {
 
 /* ABOUT PAGE */
 
-.about {
+.home {
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    scrollbar-gutter: stable;
 }
 
-.about a {
+.home a {
     text-decoration: none;
 }
 
-.aboutleft {
+.homeleft {
     text-align: left;
     float: left;
-    margin-left: 50px;
+    margin-left: 8.5vw;
 }
 
 .buttonStack {
@@ -56,7 +59,7 @@ body {
     float: left;
 }
 
-.aboutright {
+.homeright {
     float: right;
     width: 50%;
 
@@ -81,6 +84,20 @@ body {
 .icons img {
     height: 120px;
     width: 120px;
+}
+
+.skills {
+    padding: 150px 0 100px 0;
+}
+
+.skills h2 {
+    font-size: 3.5rem;
+}
+
+.skillslist {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* BLOG PAGE -  Fix these classnames! These are just for testing currently!!! */
