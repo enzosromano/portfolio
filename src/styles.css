@@ -88,6 +88,8 @@ body {
 
 .skills {
     padding: 150px 0 100px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .skills h2 {
@@ -98,12 +100,39 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 50px;
+    text-wrap: wrap;
 }
+
+.lskills {
+    transition-duration: 2s;
+    transform: translateX(-150%);
+    opacity: 0;
+    width: 30%;
+}
+
+.mskills {
+    transition-duration: 2s;
+    transform: translateY(150%);
+    opacity: 0;
+    width: 30%;
+}
+
+.rskills {
+    transition-duration: 2s;
+    transform: translateX(150%);
+    opacity: 0;
+    width: 30%;
+}
+
+.slide-in {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
 
 /* BLOG PAGE -  Fix these classnames! These are just for testing currently!!! */
 .test1 {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

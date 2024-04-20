@@ -5,11 +5,7 @@ export default function Navbar() {
     return (
         <nav className="nav">
             <Link to="/" className="site-title">ENZO
-                {/* 
-                <picture>
-                    <source media="(max-width: 1200px)" srcSet="logosmalltransparent.png" />
-                    <img src="logofulltransparent.png" alt="cclogo" />
-                </picture>*/}
+
             </Link>
             <ul>
                 <ActivePage to="/blog">BLOG</ActivePage>
