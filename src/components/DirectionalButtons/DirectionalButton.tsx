@@ -1,6 +1,13 @@
 import "./DirectionalButton.css";
 
-const DirectionalButton = ({ as, children, filled, secondary, ...rest }) => {
+type Props = {
+  as: React.ElementType;
+  children: React.ReactNode;
+  filled?: string;
+  secondary?: string;
+};
+
+const DirectionalButton = ({ as, children, filled, secondary, ...rest }: Props) => {
     const that = {
       as
     }

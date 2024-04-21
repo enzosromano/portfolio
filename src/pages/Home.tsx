@@ -1,4 +1,4 @@
-import DirectionalButton from "../components/DirectionalButtons/DirectionalButton.js";
+import DirectionalButton from "../components/DirectionalButtons/DirectionalButton";
 import { useState, useRef, useEffect} from "react"; 
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     const [isIntersecting, setIsIntersecting] = useState(false);
     //Reference, will be attached to the element you want to reference
     //Similar to document.querySelector
-    const ref = useRef(null);
+    const ref = useRef<HTMLDivElement | null>(null);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -17,18 +17,18 @@ export default function Home() {
           { rootMargin: "-300px" }
         );
         console.log(isIntersecting);
-        observer.observe(ref.current);
+        if (ref.current) observer.observe(ref?.current);
     
         return () => observer.disconnect();
       }, [isIntersecting]);
     
       useEffect(() => {
         if (isIntersecting) {
-          ref.current.querySelectorAll("div").forEach((el) => {
+            if (ref.current) ref.current.querySelectorAll("div").forEach((el) => {
             el.classList.add("slide-in");
           });
         } else {
-          ref.current.querySelectorAll("div").forEach((el) => {
+            if (ref.current) ref.current.querySelectorAll("div").forEach((el) => {
             el.classList.remove("slide-in");
           });
         }
@@ -43,11 +43,11 @@ export default function Home() {
                     <h2>I love to build things.</h2>
 
                     <div className="buttonStack">
-                        <a href="EnzoRomanoResume.pdf" alt="resume download link" download>
-                            <DirectionalButton role="button">Download Resume</DirectionalButton>
+                        <a href="EnzoRomanoResume.pdf" download>
+                            <DirectionalButton>Download Resume</DirectionalButton>
                         </a>
 
-                        <DirectionalButton role="button">Contact Me</DirectionalButton>
+                        <DirectionalButton>Contact Me</DirectionalButton>
                     </div>
 
                     
@@ -78,32 +78,32 @@ export default function Home() {
 
                 <main ref={ref} className="skillslist">
 
-                    <div class="lskills">
-                        <div class="t1skills">
+                    <div className="lskills">
+                        <div className="t1skills">
                             <img src="/skillicons/pythonicon.png" alt="linkedin"/>
                             <p>Python + Django to build the backend of full stack applications.</p>
                         </div>
-                        <div class="t2skills">
+                        <div className="t2skills">
                             <img src="/skillicons/pythonicon.png" alt="linkedin"/>
                             <p>This is a description of my current skill.</p>
                         </div>
                     </div>
-                    <div class="mskills">
-                        <div class="t1skills">
-                            <img src="/skillicons/pythonicon.png" alt="linkedin"/>
-                            <p>This is a description of my current skill.</p>
+                    <div className="mskills">
+                        <div className="t1skills">
+                            <img src="/skillicons/tsicon.png" alt="linkedin"/>
+                            <p>TypeScript for automation and building interactive frontends.</p>
                         </div>
-                        <div class="t2skills">
+                        <div className="t2skills">
                             <img src="/skillicons/pythonicon.png" alt="linkedin"/>
                             <p>This is a description of my current skill.</p>
                         </div>
                     </div>
-                    <div class="rskills">
-                        <div class="t1skills">
+                    <div className="rskills">
+                        <div className="t1skills">
                             <img src="/skillicons/pythonicon.png" alt="linkedin"/>
                             <p>This is a description of my current skill.</p>
                         </div>
-                        <div class="t2skills">
+                        <div className="t2skills">
                             <img src="/skillicons/pythonicon.png" alt="linkedin"/>
                             <p>This is a description of my current skill.</p>
                         </div>
