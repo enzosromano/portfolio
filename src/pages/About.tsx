@@ -1,7 +1,7 @@
 export default function Links() {
     return (
         <div>
-            <h1>About Me</h1>
+            <h1>About Me, i'm Enzo Romano</h1>
 
             <div className="summary">
                 <p>
@@ -20,6 +20,8 @@ export default function Links() {
                     &nbsp;to build interactive frontends.
                 </p>
                 <p>
+                    Beyond my professional experience and goals, on the weekend you can find me on the
+                    tennis court or on a motorcycle looking for a back road.
                     Please feel free to reach out with any questions or browse around my site to learn
                     a bit more about me. 
                 </p>
