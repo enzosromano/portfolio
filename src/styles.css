@@ -171,24 +171,8 @@ body {
     opacity: 1 !important;
 }
 
-/* BLOG PAGE -  Fix these classnames! These are just for testing currently!!! */
-.test1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* BLOG PAGE -  Holding area */
 
-.test2 {
-    font-size: 2rem;
-    font-weight: bolder;
-    background-color: #7189FF;
-    border: #333 8px solid;
-    width: 75%;
-}
-
-ul {
-    list-style-type: none;
-}
 
 /* ABOUT PAGE */
 

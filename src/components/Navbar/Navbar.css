@@ -6,8 +6,6 @@
 }
 
 .nav {
-    /*background-color: #030131;*/
-    /*border: 10px solid black;*/
     background: transparent;
     color: white;
     font-weight: 900;
@@ -22,13 +20,6 @@
     position: absolute;
     top:0;
 }
-
-/* Unless you add an image, this can be removed. Leave for now
-.nav img {
-    height: 12vh;
-    width: 25vw;
-}
-*/
 
 @media screen and (max-width: 1200px) {
     .nav img {
