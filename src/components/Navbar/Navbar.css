@@ -62,12 +62,13 @@
 }
 
 .nav li.active {
-    background-color: white;
+    background-color: #c7edef;
     color: black;
 }
 
 .nav li:hover {
-    background-color: #C1C1C1;
+    background-color: #c7edef;
+    color: black;
 }
 
 .site-title {
