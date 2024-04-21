@@ -43,14 +43,15 @@ export default function Home() {
                     <h2>I love to build things.</h2>
 
                     <div className="buttonStack">
-                        <a href="EnzoRomanoResume.pdf" download>
-                            <DirectionalButton>Download Resume</DirectionalButton>
-                        </a>
-
-                        <DirectionalButton>Contact Me</DirectionalButton>
+                        <div className="b1">
+                            <a href="EnzoRomanoResume.pdf" download>
+                                <DirectionalButton>Download Resume</DirectionalButton>
+                            </a>
+                        </div>
+                        <div className="b2">
+                            <DirectionalButton>Contact Me</DirectionalButton>
+                        </div>
                     </div>
-
-                    
                 </div>
 
                 <div className="homeright">
@@ -91,7 +92,7 @@ export default function Home() {
                     <div className="mskills">
                         <div className="t1skills">
                             <img src="/skillicons/tsicon.png" alt="linkedin"/>
-                            <p>TypeScript for automation and building interactive frontends.</p>
+                            <p>TypeScript to automate api testing and build an interactive frontend.</p>
                         </div>
                         <div className="t2skills">
                             <img src="/skillicons/pythonicon.png" alt="linkedin"/>
@@ -100,8 +101,8 @@ export default function Home() {
                     </div>
                     <div className="rskills">
                         <div className="t1skills">
-                            <img src="/skillicons/pythonicon.png" alt="linkedin"/>
-                            <p>This is a description of my current skill.</p>
+                            <img src="/skillicons/reacticon.png" alt="linkedin"/>
+                            <p>React to build a complex component-based UI.</p>
                         </div>
                         <div className="t2skills">
                             <img src="/skillicons/pythonicon.png" alt="linkedin"/>

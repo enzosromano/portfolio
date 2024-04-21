@@ -32,6 +32,42 @@ body {
     text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+
+    .home {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .homeleft {
+        width: 100vw;
+        text-align: center;
+        align-items: center;
+    }
+
+    .buttonStack {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        float: none;
+    }
+
+    .icons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skillslist {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
 /* ABOUT PAGE */
 
 .home {
@@ -90,6 +126,11 @@ body {
     padding: 150px 0 100px 0;
     display: flex;
     flex-direction: column;
+}
+
+.skills img {
+    width: 100px;
+    height: 100px;
 }
 
 .skills h2 {
