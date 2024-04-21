@@ -16,7 +16,6 @@ export default function Home() {
           },
           { rootMargin: "-300px" }
         );
-        console.log(isIntersecting);
         if (ref.current) observer.observe(ref?.current);
     
         return () => observer.disconnect();
