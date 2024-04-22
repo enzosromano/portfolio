@@ -1,9 +1,17 @@
+import SkillsMobile from "../components/Skills/SkillsMobile";
+
 export default function Blog() {
+
+    
+
     return (
-        <div className="test1">
+        <div>
             <h1>This weeks entries...</h1>
-        
-            
+
+            <SkillsMobile></SkillsMobile>
+
         </div>
+   
     )
 }
+
