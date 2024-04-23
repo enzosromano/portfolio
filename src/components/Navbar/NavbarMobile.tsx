@@ -2,9 +2,7 @@ import { useClickAway } from "react-use";
 import { useRef } from "react";
 import { useState } from "react";
 import { Squash as Hamburger } from "hamburger-react";
-import { AnimatePresence, motion } from "framer-motion";
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-//import { routes } from "../routes";
 
 import "./NavbarMobile.css";
 
@@ -22,6 +20,7 @@ export default function Navbar() {
             <div className="displayed">
                 <ul className="menu">
                     <ul>
+                        <Link to="/">HOME</Link>
                         <ActivePage to="/blog">BLOG</ActivePage>
                         <ActivePage to="/about">ABOUT</ActivePage>
                         <ActivePage to="/projects">PROJECTS</ActivePage>
