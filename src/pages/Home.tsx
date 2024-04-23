@@ -12,7 +12,7 @@ export default function Home() {
     const ref = useRef<HTMLDivElement | null>(null);
 
     //Getting window size
-    const {width, height} = useWindowDimensions()
+    const {width} = useWindowDimensions()
 
     useEffect(() => {
         const observer = new IntersectionObserver(

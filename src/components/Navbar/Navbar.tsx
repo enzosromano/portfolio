@@ -4,9 +4,7 @@ import "./Navbar.css";
 export default function Navbar() {
     return (
         <nav className="nav">
-            <Link to="/" className="site-title">ENZO
-
-            </Link>
+            <Link to="/" className="site-title">ENZO</Link>
             <ul>
                 <ActivePage to="/blog">BLOG</ActivePage>
                 <ActivePage to="/about">ABOUT</ActivePage>
