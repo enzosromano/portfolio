@@ -2,5 +2,5 @@
 
 Frontend:
 
-Navbar (mobile): hamburger-react
+Navbar (mobile): hamburger-react __
 Skills Slider (mobile): @splidejs/react-splide
