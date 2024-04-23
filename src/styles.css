@@ -172,3 +172,12 @@ body {
 
     
 }
+
+@media only screen and (max-width: 550px)  { 
+
+    .icons img{
+        height: 12vh;
+        width: 10vw;
+    }
+
+}
