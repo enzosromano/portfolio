@@ -9,28 +9,35 @@
     width: 100vw;
     height: 8vh;
     display: flex;
+    z-index: 2;
 }
 
 .hidden {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .displayed {
-    display: flex;
+    background-color: white;
+    color: black;
+    z-index: 1;
+    width: 100vw;
+    height: 265px;
+    position: absolute;
+    top: 85px;
+    right: 0px;
 }
 
 
 .menu ul {
-    font-size: 25px;
+    font-size: 40px;
     text-decoration: none;
-    gap: 25px;
+    padding: 10px;
     list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 0;
+    margin: 30px 0;
 }
 
 .navbar a {

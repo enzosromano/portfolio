@@ -1,4 +1,5 @@
 import { useClickAway } from "react-use";
+import {useClick} from '@floating-ui/react';
 import { useRef } from "react";
 import { useState } from "react";
 import { Squash as Hamburger } from "hamburger-react";
@@ -19,7 +20,7 @@ export default function Navbar() {
         {isOpen && (
             <div className="displayed">
                 <ul className="menu">
-                    <ul>
+                    <ul onClick={() => setOpen(false)}>
                         <Link to="/">HOME</Link>
                         <ActivePage to="/blog">BLOG</ActivePage>
                         <ActivePage to="/about">ABOUT</ActivePage>
