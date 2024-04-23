@@ -1,11 +1,22 @@
+import ProjectDisplay from "../components/ProjectDisplay/ProjectDisplay"
+
 export default function Projects() {
     return (
         <div>
             <h1>Projects</h1>
 
-            <p>I should make an app that shows the cons of not sanitizing input and the
-                consequences that could result in your DB.
-            </p>
+            <ProjectDisplay 
+                image="../../skillicons/angularicon.png" 
+                alt="test"
+                text="test">
+            </ProjectDisplay>
+
+            <ProjectDisplay 
+                image="../../skillicons/angularicon.png" 
+                alt="test"
+                text="test">
+            </ProjectDisplay>
+
         </div>   
 )
 }
