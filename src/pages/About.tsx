@@ -1,11 +1,11 @@
 export default function Links() {
     return (
         <div>
-            <h1>About Me, i'm Enzo Romano</h1>
+            <h1>About Me, I'm Enzo Romano</h1>
 
             <div className="summary">
                 <p>
-                    My name is Enzo Romano and I am currently a QA Analyst at Echelon Fitness.
+                    and I am currently a QA Analyst at Echelon Fitness.
                 </p>
                 <p>
                     I love to build and break things which has led me to pursue a role as 
@@ -13,7 +13,7 @@ export default function Links() {
                     <br></br><br></br>
                     I am constantly exploring new technologies and frameworks that catch
                     my interest and finding ways to integrate them into existing applications
-                    along the way. Currently I am looking a testing framework called&nbsp;
+                    along the way. Currently I am playing around with a testing framework called&nbsp;
                         <a href="https://playwright.dev/" target="_blank" rel="noreferrer">Playwright</a>
                     &nbsp;for end to end testing and expanding my experience in&nbsp;
                         <a href="https://react.dev/" target="_blank" rel="noreferrer">React</a>

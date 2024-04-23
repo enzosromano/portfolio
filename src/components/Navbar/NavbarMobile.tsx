@@ -1,5 +1,4 @@
 import { useClickAway } from "react-use";
-import {useClick} from '@floating-ui/react';
 import { useRef } from "react";
 import { useState } from "react";
 import { Squash as Hamburger } from "hamburger-react";

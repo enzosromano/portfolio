@@ -115,3 +115,11 @@
   --textColor: #0d0d0d;
   --bg: #c7edef;
 }
+
+@media only screen and (max-width: 1100px)  { 
+
+  .dir-control {
+    width: 180px;
+  }
+
+}
