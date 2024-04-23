@@ -6,7 +6,6 @@ export default function Navbar() {
         <nav className="nav">
             <Link to="/" className="site-title">ENZO</Link>
             <ul>
-                <ActivePage to="/blog">BLOG</ActivePage>
                 <ActivePage to="/about">ABOUT</ActivePage>
                 <ActivePage to="/projects">PROJECTS</ActivePage>
             </ul>

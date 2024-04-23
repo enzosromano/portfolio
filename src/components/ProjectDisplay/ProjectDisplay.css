@@ -2,4 +2,42 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100vw;
+
+    gap: 25px;
+    text-wrap: wrap;
+}
+
+.imageArea {
+    transform: translateX(150%);
+    transition-duration: 2s;
+}
+
+.textArea {
+    transform: translateX(150%);
+    transition-duration: 2s;
+}
+
+.project img {
+    height: 300px;
+    padding-right: 10px;
+}
+
+.project p {
+    padding: 50px;
+    font-size: 18px;
+}
+
+.project b {
+    color: aquamarine;
+    font-size: 20px;
+}
+
+.project a {
+    color: chartreuse;
+}
+
+.slide-in {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
 }

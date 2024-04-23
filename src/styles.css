@@ -11,6 +11,7 @@ Such as all of the pages
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
+    scrollbar-gutter: stable;
 }
 
 .font-link {
@@ -92,9 +93,6 @@ body {
     padding-bottom: 50px;
 }
 
-/* BLOG PAGE -  Holding area */
-
-
 /* ABOUT PAGE */
 
 .summary {
@@ -112,6 +110,16 @@ body {
 .summary a {
     color: white;
 }
+
+/* PROJECTS PAGE*/
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/* MEDIA TAGS*/
 
 
 @media only screen and (max-width: 1100px) {
