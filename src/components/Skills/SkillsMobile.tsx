@@ -6,6 +6,7 @@ export default function SkillsMobile() {
         <div>
 
             <Splide className="skillsplide">
+                <div className="splide__arrows">
                 <SplideSlide>
                     <img src="/skillicons/pythonicon.png" alt="linkedin"/>
                     <p>Python + Django to build the backend of full stack applications.</p>
@@ -16,7 +17,8 @@ export default function SkillsMobile() {
                 </SplideSlide>
                 <SplideSlide>
                     <img src="/skillicons/reacticon.png" alt="linkedin"/>
-                    <p>React to build a complex component-based UI... And spend 2 hours making a cool button.</p>
+                    <p>React to build a complex component-based UI... </p>
+                    <p>And spend 2 hours making a cool button.</p>
                 </SplideSlide>
                 <SplideSlide>
                     <img src="/skillicons/javaicon.png" alt="linkedin"/>
@@ -42,6 +44,7 @@ export default function SkillsMobile() {
                     <img src="/skillicons/mysqlicon.png" alt="linkedin"/>
                     <p>Who doesn't love writing SQL queries... right?</p>
                 </SplideSlide>
+                </div>
             </Splide>
         </div>
     )

@@ -66,11 +66,11 @@ export default function Home() {
                         <a href="https://github.com/enzosromano" target="_blank" rel="noreferrer">
                             <img src="/contacticons/githubicon.png" alt="github"/>
                         </a>
-                        <a href="https://www.linkedin.com/in/enzo-romano-878b051b3/" target="_blank" rel="noreferrer">
-                            <img src="/contacticons/linkedinicon.png" alt="linkedin"/>
-                        </a>
                         <a href="https://google.com" target="_blank" rel="noreferrer">
                             <img src="/contacticons/emailicon.png" alt="linkedin"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/enzo-romano-878b051b3/" target="_blank" rel="noreferrer">
+                            <img src="/contacticons/linkedinicon.png" alt="linkedin"/>
                         </a>
                     </div>
                     <p>Dont worry, they'll open in a new tab.</p>

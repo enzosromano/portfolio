@@ -157,6 +157,15 @@ body {
         float: none;
     }
 
+    .icons {
+        gap: 25px;
+    }
+
+    .icons img{
+        height: 10vh;
+        width: 20vw;
+    }
+
     .skills {
         margin: 0 10px 0 10px;
     }

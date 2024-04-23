@@ -24,7 +24,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
-      <Footer />
+      <div><b>{(width < 800) ?  "": <Footer />}</b></div>
     </>
   )
 }

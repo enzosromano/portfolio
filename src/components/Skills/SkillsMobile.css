@@ -1,21 +1,18 @@
 .skillsplide {
     height: 210px;
     width: 100%;
+    text-transform: capitalize;
 }
 
-.skills img {
-    width: 10vw;
-    height: 100px;
+.skillsplide p {
+    margin: 0 1.5vw 0 1.5vw;
 }
 
-.skills h2 {
-    font-size: 3.5rem;
-}
+@media only screen and (max-width: 800px) {
 
-.skillslist {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 50px;
-    text-wrap: wrap;
+    .splide__arrows {
+        position: relative;
+        top: 40px;
+    }
+
 }
