@@ -31,43 +31,28 @@ body {
 
 .container {
     margin: 1rem;
+    width: 100vw;
     text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
 
-    .home {
-        padding-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+    .container, .home {
+        width: 100vw;
     }
 
-    .homeleft {
-        width: 100vw;
-        text-align: center;
-        align-items: center;
+    .home {
+        display: flex;
+        flex-direction: column;
     }
 
     .buttonStack {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
         justify-content: center;
-        float: none;
+        align-items: center;
     }
 
-    .icons {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .skillslist {
-        display: flex;
-        flex-direction: column;
-    }
   }
 
 /* ABOUT PAGE */
@@ -87,7 +72,7 @@ body {
 .homeleft {
     text-align: left;
     float: left;
-    margin-left: 8.5vw;
+    margin-left: 8.0vw;
 }
 
 .buttonStack {
@@ -122,55 +107,6 @@ body {
 .icons img {
     height: 120px;
     width: 120px;
-}
-
-.skills {
-    padding: 150px 0 100px 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.skills img {
-    width: 100px;
-    height: 100px;
-}
-
-.skills h2 {
-    font-size: 3.5rem;
-}
-
-.skillslist {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 50px;
-    text-wrap: wrap;
-}
-
-.lskills {
-    transition-duration: 2s;
-    transform: translateX(-150%);
-    opacity: 0;
-    width: 30%;
-}
-
-.mskills {
-    transition-duration: 2s;
-    transform: translateY(150%);
-    opacity: 0;
-    width: 30%;
-}
-
-.rskills {
-    transition-duration: 2s;
-    transform: translateX(150%);
-    opacity: 0;
-    width: 30%;
-}
-
-.slide-in {
-    transform: translateX(0) !important;
-    opacity: 1 !important;
 }
 
 /* BLOG PAGE -  Holding area */

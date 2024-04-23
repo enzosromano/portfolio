@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect} from "react"; 
-import "./Skills.css";
+import "./SkillsDesktop.css";
 
 export default function SkillsDekstop() {
 
@@ -72,12 +72,11 @@ export default function SkillsDekstop() {
                     </div>
                     <div className="t2skills">
                         <img src="/skillicons/angularicon.png" alt="linkedin"/>
-                        <p>Angular and Storybook to build UI components.</p>
+                        <p>Angular + Storybook to build UI components.</p>
                     </div>
                     <div className="t3skills">
                         <img src="/skillicons/mysqlicon.png" alt="linkedin"/>
                         <p>Who doesn't love writing SQL queries... right?</p>
-                        <p>ERROR 1146 (42S02): Table 'moreskills' doesn't exist</p>
                     </div>
                 </div>
                 

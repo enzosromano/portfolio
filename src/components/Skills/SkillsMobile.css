@@ -1,0 +1,21 @@
+.skillsplide {
+    height: 210px;
+    width: 100%;
+}
+
+.skills img {
+    width: 10vw;
+    height: 100px;
+}
+
+.skills h2 {
+    font-size: 3.5rem;
+}
+
+.skillslist {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    text-wrap: wrap;
+}

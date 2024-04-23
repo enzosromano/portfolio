@@ -12,7 +12,7 @@ export default function Home() {
     const ref = useRef<HTMLDivElement | null>(null);
 
     //Getting window size
-    const { innerWidth: width, innerHeight: height } = window;
+    const {width, height} = useWindowDimensions()
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -82,10 +82,34 @@ export default function Home() {
                 <h2>Skills</h2>
                 <h3>And what i've used them for...</h3>
 
-                <b>{(width < 600) ? <SkillsMobile/> : <SkillsDekstop/>}</b>
+                <b>{(width < 1100) ? <SkillsMobile/> : <SkillsDekstop/>}</b>
                 
             </div>
         </div>
     )
 }
 
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+      width,
+      height,
+    };
+  }
+
+function useWindowDimensions() {
+    const [windowDimensions, setWindowDimensions] = useState(
+      getWindowDimensions()
+    );
+  
+    useEffect(() => {
+      function handleResize() {
+        setWindowDimensions(getWindowDimensions());
+      }
+  
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
+  
+    return windowDimensions;
+  }

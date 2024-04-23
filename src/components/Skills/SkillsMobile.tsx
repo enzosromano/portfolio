@@ -1,5 +1,5 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import "./Skills.css";
+import "./SkillsMobile.css";
 
 export default function SkillsMobile() {
     return (
@@ -36,12 +36,11 @@ export default function SkillsMobile() {
                 </SplideSlide>
                 <SplideSlide>
                     <img src="/skillicons/angularicon.png" alt="linkedin"/>
-                    <p>Angular and Storybook to build UI components.</p>
+                    <p>Angular + Storybook to build UI components.</p>
                 </SplideSlide>
                 <SplideSlide>
                     <img src="/skillicons/mysqlicon.png" alt="linkedin"/>
                     <p>Who doesn't love writing SQL queries... right?</p>
-                    <p>ERROR 1146 (42S02): Table 'moreskills' doesn't exist</p>
                 </SplideSlide>
             </Splide>
         </div>

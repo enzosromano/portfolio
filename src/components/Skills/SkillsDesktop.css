@@ -1,15 +1,3 @@
-.skillsplide {
-    height: 210px;
-}
-
-
-
-.skills {
-    padding: 150px 0 100px 0;
-    display: flex;
-    flex-direction: column;
-}
-
 .skills img {
     width: 100px;
     height: 100px;
@@ -20,10 +8,13 @@
 }
 
 .skillslist {
+    width: 98vw;
+    flex-basis: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    padding-bottom: 10px;
     text-wrap: wrap;
 }
 
@@ -32,6 +23,8 @@
     transform: translateX(-150%);
     opacity: 0;
     width: 30%;
+    height: 70vh;
+    margin-bottom: 8vh;
 }
 
 .mskills {
@@ -39,6 +32,8 @@
     transform: translateY(150%);
     opacity: 0;
     width: 30%;
+    height: 70vh;
+    margin-bottom: 8vh;
 }
 
 .rskills {
@@ -46,9 +41,30 @@
     transform: translateX(150%);
     opacity: 0;
     width: 30%;
+    height: 70vh;
+    margin-bottom: 8vh;
+}
+
+.t1skills, .t2skills, .t3skills {
+    width: 30vw;
+    height: 12vw;
 }
 
 .slide-in {
     transform: translateX(0) !important;
     opacity: 1 !important;
+}
+
+@media only screen and (max-width: 1450px) {
+
+    .t1skills, .t2skills, .t3skills {
+        width: 30vw;
+        height: 18vw;
+    }
+
+    .rskills, .mskills, .lskills {
+        margin-bottom: 15vh;
+    }
+    
+
 }
