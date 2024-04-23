@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import NavbarMobile from "./components/Navbar/NavbarMobile";
 import Footer from "./components/Footer/Footer";
-import Blog from "./pages/Blog";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Home from "./pages/Home";
@@ -19,7 +18,6 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>

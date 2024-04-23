@@ -22,7 +22,6 @@ export default function Navbar() {
                 <ul className="menu">
                     <ul onClick={() => setOpen(false)}>
                         <Link to="/">HOME</Link>
-                        <ActivePage to="/blog">BLOG</ActivePage>
                         <ActivePage to="/about">ABOUT</ActivePage>
                         <ActivePage to="/projects">PROJECTS</ActivePage>
                     </ul>

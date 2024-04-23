@@ -34,7 +34,7 @@ body {
     text-align: center;
 }
 
-/* ABOUT PAGE */
+/* HOME PAGE */
 
 .home {
     padding-top: 50px;
@@ -88,6 +88,10 @@ body {
     width: 120px;
 }
 
+.skills h3 {
+    padding-bottom: 50px;
+}
+
 /* BLOG PAGE -  Holding area */
 
 
@@ -137,7 +141,7 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin: 0 0 10vh 0;
+        margin: 0 0 5vh 0;
         margin-left: 0;
     }
 
