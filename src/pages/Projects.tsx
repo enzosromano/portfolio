@@ -20,15 +20,15 @@ export default function Projects() {
                     <br></br><br></br>
 
                     The scoreboard was capable of executing checks utilizing a wide range of protocols 
-                    (<b>HTTPS, ICMP, RDP, LDAP</b>) on services to determine their current status.
+                    (<b>HTTPS, ICMP, RDP, LDAP, etc.</b>) on services to determine their current status.
                     Checks were run on a scheduled basis (via&nbsp;
-                        <a href="https://docs.celeryq.dev/en/stable/index.html">Celery</a>
+                        <a href="https://docs.celeryq.dev/en/stable/index.html" target="_blank" rel="noreferrer">Celery</a>
                     ), and their results determined team scores and kept track of any SLA Violations that occured.
 
                     <br></br><br></br>
                     <b>Why Python and Django?</b> The scoreboard needed a creative solution for an Admin panel that 
                     the team could easily add custom commands to, which we set up using the&nbsp;
-                        <a href="https://docs.djangoproject.com/en/5.0/topics/forms/">forms</a>
+                        <a href="https://docs.djangoproject.com/en/5.0/topics/forms/" target="_blank" rel="noreferrer">forms</a>
                     &nbsp;library.  
                     Beyond this, python allowed us access to a bunch of libraries that assisted in developing checks around 
                     difficult protocols (such as Remote Desktop Protocol).
