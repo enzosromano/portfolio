@@ -5,9 +5,7 @@ export default function Links() {
             <h2>and I am currently a QA Analyst at Echelon Fitness.</h2>
 
             <div className="summary">
-            
                 <div className="aboutText">
-                    
                     <p>
                         I love to build and break things which has led me to pursue a role as 
                         either a QA Engineer or Full-Stack Developer.
@@ -26,10 +24,6 @@ export default function Links() {
                         Please feel free to reach out with any questions or browse around my site to learn
                         a bit more about me. 
                     </p>
-                </div>
-                <div className="aboutImage">
-                    <img src="../images/construction.jpg" />
-                    <p></p>
                 </div>
             </div>
             

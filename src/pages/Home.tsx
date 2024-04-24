@@ -53,7 +53,9 @@ export default function Home() {
                             </a>
                         </div>
                         <div className="b2">
-                            <DirectionalButton>Contact Me</DirectionalButton>
+                            <a href="mailto:enzosromano@gmail.com">
+                              <DirectionalButton>Contact Me</DirectionalButton>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -66,7 +68,7 @@ export default function Home() {
                         <a href="https://github.com/enzosromano" target="_blank" rel="noreferrer">
                             <img src="/contacticons/githubicon.png" alt="github"/>
                         </a>
-                        <a href="https://google.com" target="_blank" rel="noreferrer">
+                        <a href="mailto:enzosromano@gmail.com" target="_blank" rel="noreferrer">
                             <img src="/contacticons/emailicon.png" alt="linkedin"/>
                         </a>
                         <a href="https://www.linkedin.com/in/enzo-romano-878b051b3/" target="_blank" rel="noreferrer">
