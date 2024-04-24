@@ -51,5 +51,9 @@
   },
   "overrides": {
     "typescript": "$typescript"
+  },
+  "devDependencies": {
+    "@types/react-router": "^3.0.19",
+    "gh-pages": "^6.1.1"
   }
 }

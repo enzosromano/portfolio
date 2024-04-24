@@ -8,7 +8,7 @@ export default function Projects() {
 
             <div className="projects">
                 <ProjectDisplay 
-                    image="../../images/hackucf.png" 
+                    image="images/hackucf.png" 
                     alt="test"
                     title="CyberSecurity Competition Scoreboard"
                     text={<p>
@@ -37,7 +37,7 @@ export default function Projects() {
                 </ProjectDisplay>
 
                 <ProjectDisplay 
-                    image="../../images/construction.jpg" 
+                    image="images/construction.jpg" 
                     alt="test"
                     title="Site Under Construction"
                     text="
@@ -46,7 +46,7 @@ export default function Projects() {
                 </ProjectDisplay>
 
                 <ProjectDisplay 
-                    image="../../images/construction.jpg"
+                    image="images/construction.jpg"
                     alt="test"
                     title="Site Under Construction"
                     text="
