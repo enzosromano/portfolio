@@ -111,6 +111,7 @@ body {
 .aboutText {
     font-size: 1.5rem;
     line-height: 2.5rem;
+    padding: 60px;
 }
 
 .aboutImage img{
@@ -120,6 +121,12 @@ body {
 
 .summary a {
     color: white;
+}
+
+.resumepdf {
+    height: 1000px;
+    width: 800px;
+    margin-bottom: 100px;
 }
 
 /* PROJECTS PAGE*/
@@ -191,6 +198,16 @@ body {
 
     .skills {
         margin: 0 10px 0 10px;
+    }
+
+    .aboutText {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        padding: 10px;
+    }
+
+    .resumepdf {
+        display: none;
     }
 
     

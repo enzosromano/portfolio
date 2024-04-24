@@ -26,6 +26,8 @@ export default function Links() {
                     </p>
                 </div>
             </div>
+
+            <iframe className="resumepdf" src="EnzoRomanoResume.pdf"></iframe>
             
         </div>
     )
