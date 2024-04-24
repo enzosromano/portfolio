@@ -37,24 +37,20 @@ export default function Projects() {
                 </ProjectDisplay>
 
                 <ProjectDisplay 
-                    image="../../images/hackucf.png" 
+                    image="../../images/construction.jpg" 
                     alt="test"
-                    title="CyberSecurity Competition Scoreboard"
+                    title="Site Under Construction"
                     text="
-                    The Collegiate Cyber Defense Club @ UCF
-                    Tasked with creating the scoreboard that the team uses to practice for their
-                    blahblah
+                    Working on it!
                     ">
                 </ProjectDisplay>
 
                 <ProjectDisplay 
-                    image="../../images/hackucf.png" 
+                    image="../../images/construction.jpg"
                     alt="test"
-                    title="CyberSecurity Competition Scoreboard"
+                    title="Site Under Construction"
                     text="
-                    The Collegiate Cyber Defense Club @ UCF
-                    Tasked with creating the scoreboard that the team uses to practice for their
-                    blahblah
+                    Working on it!
                     ">
                 </ProjectDisplay>
             </div>

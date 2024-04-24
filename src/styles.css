@@ -96,15 +96,26 @@ body {
 /* ABOUT PAGE */
 
 .summary {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
+    width: 100%;
+    display: flex;
     justify-content: center;
-    text-align: center;
-    margin: 20px 20vw 0 20vw;
-    font-size: 1.5rem;
+    align-items: center;
+}
 
+.aboutText, .aboutImage {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.aboutText {
+    font-size: 1.5rem;
     line-height: 2.5rem;
+}
+
+.aboutImage img{
+    height: 300px;
+    width: 500px;
 }
 
 .summary a {
