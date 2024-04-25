@@ -31,7 +31,7 @@ export default function Projects() {
                         <a href="https://docs.djangoproject.com/en/5.0/topics/forms/" target="_blank" rel="noreferrer">forms</a>
                     &nbsp;library.  
                     Beyond this, python allowed us access to a bunch of libraries that assisted in developing checks around 
-                    difficult protocols (such as Remote Desktop Protocol).
+                    difficult protocols.
                     </p>
                     }>
                 </ProjectDisplay>
