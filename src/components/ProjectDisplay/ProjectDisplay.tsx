@@ -8,13 +8,16 @@ export default function ProjectDisplay(props: any) {
     //Reference, will be attached to the element you want to reference
     //Similar to document.querySelector
     const ref = useRef<HTMLDivElement | null>(null);
+    
 
     useEffect(() => {
         const observer = new IntersectionObserver(
           ([entry]) => {
             setIsIntersecting(entry.isIntersecting);
           },
-          { rootMargin: "-300px" }
+          { root:null,
+            rootMargin:'0px',
+            threshold:[0.4, .9999]}
         );
         if (ref.current) observer.observe(ref?.current);
     
