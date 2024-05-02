@@ -39,24 +39,30 @@ export default function Projects() {
                 <ProjectDisplay 
                     image="images/QATool.jpg" 
                     alt="image of QATool user interface"
-                    title="QATool"
+                    title="QATool - WIP"
                     text={<p>
-                        Currently developing a Python application that can be downloaded and run by any QA member to automate daily tasks.
-                        Scripts are being developed with Python+Selenium and I added a simple GUI through&nbsp;
+                        Currently developing a Python application that can be utilized by QA to automate repetitive daily tasks.
+                        Scripts are being developed with Python+Selenium, and are predominantly functions or tasks to be executed, and less  
+                        an "evaluation" of frontends (as Selenium is typically used for). I have added a simple GUI through&nbsp;
                             <a href="https://docs.python.org/3/library/tkinter.html" target="_blank" rel="noreferrer">tkinter</a>
-                        &nbsp;since the application is not frontend focused.  
+                        &nbsp;to minimize the need of any other libraries such as flask to interact with Python code. My end goal is for this 
+                        tool to be extremely functional and low maintenance, so setting up a non python based frontend would not acheive that goal.  
                         <br></br><br></br>
     
                         The project is currently in its very early stages but is already capable of automating some basic tasks within
                         the companies staging environment, reducing the time it takes to complete certain daily processes by 50% or more.
+                        It currently excels in setting up "scenario based testing", where you have a handful of different account statuses or
+                        other variables that you test the same singular case upon in order to validate edge cases.
+
+                        <br></br><br></br>
                         I have plans to make a "public" version of this application with the GUI layout and in depth documentation to
                         allow others to develop a similar tool, but without all my actual tests.
     
                         <br></br><br></br>
-                        <b>Why is this useful?</b> In my situation, we had a handful of daily tasks that needed to be automated, and there
-                        is not currently a test suite "management tool" that I have access to. If someone does not feel comfortable cloning a
-                        repo and running pytest manually through the command line, this allows them the full funcionality of the written automation
-                        tests with an easily digestible GUI to facilitate everything.
+                        <b>Why not some enterprise software instead?</b> It isnt always practical to have some enterprise level automation solution
+                        within a smaller company due to time or cost dedications. On top of that, it may simply just be too much of a lift. With something
+                        like this, members of QA can explore automation possibilities without worrying about "breaking" any company tools,
+                        and it is about as customizable as an automation tool can be.
                         </p>
                         }>
                 </ProjectDisplay>
