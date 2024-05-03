@@ -52,7 +52,7 @@ export default function Projects() {
                         The project is currently in its very early stages but is already capable of automating some basic tasks within
                         the companies staging environment, reducing the time it takes to complete certain daily processes by 50% or more.
                         It currently excels in setting up "scenario based testing", where you have a handful of different account statuses or
-                        other variables that you test the same singular case upon in order to validate edge cases.
+                        other variables that you test the same singular action upon in order to validate edge cases.
 
                         <br></br><br></br>
                         I have plans to make a "public" version of this application with the GUI layout and in depth documentation to
